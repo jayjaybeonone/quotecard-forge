@@ -61,8 +61,13 @@ instructions for generating unlimited cards with the free QuoteCard Forge render
 
 ## Staging checklist
 
-- [ ] Create Products 1–4 above under the QuoteCard Forge Gumroad account
-- [ ] Set prices exactly: $29 / $19 / $19 / $19
-- [ ] Upload sample card images as product covers (samples live in `samples/` locally)
-- [ ] Paste the storefront link into `index.html` checkout buttons (currently `href="#"`)
-- [ ] Republish storefront so every Buy button points at a live product
+- [x] Create Products 1–4 above under the QuoteCard Forge Gumroad account — DONE Nov 8, 2026 as DRAFTS via the Gumroad connector. Account: Jay Hayes, username jayvortex14, storefront https://jayvortex14.gumroad.com
+  - Product 1 ($29): https://jayvortex14.gumroad.com/l/nnfuxd
+  - Product 2 ($19, Restaurants & Bars): https://jayvortex14.gumroad.com/l/qabvzo
+  - Product 3 ($19, Barbers): https://jayvortex14.gumroad.com/l/tgclus
+  - Product 4 ($19, Realtors): https://jayvortex14.gumroad.com/l/jyeqes
+- [x] Set prices exactly: $29 / $19 / $19 / $19
+- [x] Paste the product links into `index.html` checkout buttons (done Nov 8, 2026)
+- [ ] Upload sample card images as product covers (samples live in `samples/` locally — cover upload is not available through the connector; owner step in the Gumroad dashboard)
+- [ ] Publish each product (owner approval — Approval #2 — then publish via connector)
+- [ ] Enable GitHub Pages (repo Settings → Pages → deploy from main) so the storefront serves
